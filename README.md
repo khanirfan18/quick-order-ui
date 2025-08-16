@@ -1,7 +1,7 @@
 # quick-order-ui
 Jimmy’s Diner — frontend-only mobile restaurant menu with interactive cart & checkout items using vanilla JS.
 
-#https://quickresturant-ui.netlify.app/
+> https://quickresturant-ui.netlify.app/
 
 design inspired by a Figma prototype 🍔🛒
 

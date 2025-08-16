@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    width: 600px;
+} 
+ul{
+    list-style-type: none;
+}
+.banner{
+    padding-top: 1px;
+    background-image: url(images/backGround.png);
+    background-position: center; 
+    background-size: cover;
+    width: 600px;
+    height: 167px;
+    margin-bottom: 40px;
+}
+.banner-headings{
+    list-style-type: none;
+    color: whitesmoke;
+}
+.Large-text{
+    margin-top: 35px;
+    font-size: 39px;
+}
+.Small-text{
+    padding-top: 1px;
+    font-size: 23px;
+}
+.product-card{
+    margin: 20px auto -40px auto;
+    width: 508px;
+    height: 140px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    align-items: center;
+}
+.info{
+    margin: -20px;
+}
+.product-name{
+    font-size: 28px;
+    margin-bottom: -4px
+}
+.ingredients{
+    margin-bottom: -8px;
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+.product-price{
+    font-size: 20px;
+}
+.plusButton{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: #3C3C3C;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DEDEDE;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 95px;
+    left: 500px;
+    cursor: pointer;
+}
+.removeButton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    border: none;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+
+#section-one{
+    width: 508px;
+    height: 319px;
+    margin: 0px auto;
+}
+.your-order{
+    font-size:28px;
+    font-weight: lighter;
+}
+.summary {
+  width: 100%;
+  margin-top: 75px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; 
+  margin: 6px 0;
+}
+
+.line {
+  height: 1px;
+  background-color: #393333; 
+  margin: 10px 0;
+}
+
+.your-order {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.cart-product,.product-price{
+    font-size: 28px;
+}
+.subtotal-label{
+    font-size: 28px;
+}
+.subtotal-price, .product-price{
+    font-size: 20px;
+}
+.complete-order-btn{
+    margin-top: 50px;
+    width: 508px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color:#16DB99;
+}
+
+
+
+form{
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+
+  width: 524px;
+  height: 470px;
+  background-color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.form-heading{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-inputs{
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    border: 1px solid #757575;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 435px;
+    height: 40px;
+    padding:8px 16px;
+}
+.form-btn{
+    text-align: center;
+}
+#form-modal-btn{
+    margin-top: 25px;
+    text-align: center  ;
+    color: #FFFFFF;
+    border: none;
+    background: #16DB99;
+    width: 475.911376953125px;
+    height: 62px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge, Opera) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.final-msg{
+    text-align: center;
+}
+.userName{
+    display: inline-block;
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    padding: 40px 50px;
+}

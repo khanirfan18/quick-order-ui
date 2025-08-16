@@ -1,4 +1,4 @@
-import { menuArray } from '/data'
+import { menuArray } from './data.js'
 
 function dinerHTML(){
     let menu = ''
